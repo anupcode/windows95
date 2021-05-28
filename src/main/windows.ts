@@ -16,7 +16,7 @@ export function getOrCreateWindow(): BrowserWindow {
       webviewTag: false,
     },
   });
-
+var e=3
   mainWindow.loadFile("./dist/static/index.html");
 
   mainWindow.on("closed", () => {
